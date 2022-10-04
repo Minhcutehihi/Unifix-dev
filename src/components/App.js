@@ -12,6 +12,7 @@ import Login from "./login-page/Login";
 import ForgotPassword from "./login-page/ForgotPassword";
 import picture from "../img/Frame.png";
 import Footer from "./footer/Footer";
+import LandingPage from "./landing-page/LandingPage";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                   <Route path="/login" component={Login} />
                   <Route path="/forgot-password" component={ForgotPassword} />
                   <Route path="/update-profile" component={UpdateProfile} />
+                  <Route path="/landing-page" component={LandingPage} />
               </Switch>
             </AuthProvider>
           </Router>
